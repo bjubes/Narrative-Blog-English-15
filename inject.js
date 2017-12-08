@@ -1,3 +1,5 @@
+function onshia(){
+
 var videoCount;
 
 var assets = ["/media/output.webm", "/media/output1.webm", "/media/output2.webm", "/media/output3.webm"]
@@ -28,6 +30,8 @@ video.addEventListener('loadeddata', function() {
    video.play();
 }, false);
 
+
+
 video.onended = function() {
 	video.style.opacity = "0";
 };
@@ -35,3 +39,5 @@ video.onended = function() {
 video.onerror = function() {
   	alert("Chrome blocks Shia on this page:( Try on another one!");
 };
+
+}
