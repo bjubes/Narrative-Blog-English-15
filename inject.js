@@ -15,7 +15,7 @@ if (videoEl == null) {
 var video = document.querySelector('.shia-do-it .shia-do-it--container video');
 video.style.opacity = "0";
 video.style.cssText = ('transition: opacity 200ms;');
-video.src = "http://bjubes.github.io/media/output.webm";
+video.src = "https://raw.githubusercontent.com/bjubes/bjubes.github.io/master/media/output.webm";
 if(videoCount < 3) {
 	videoCount ++;
 } else {
